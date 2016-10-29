@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    color: #555;
+}
+.block {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.block {
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: relative;
+    text-align: center;
+}
+.block img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+.block .description {
+    bottom: 0;
+    box-shadow: 0 0 0 0 rgba(255, 212, 0, 0.95) inset;
+    -moz-box-shadow: 0 0 0 0 rgba(255, 212, 0, 0.95) inset;
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 212, 0, 0.95) inset;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin: -1px;
+}
+.block .title {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 107px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+}
+.sub-title {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -moz-transform: scale(0);
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+    font-weight: normal;
+}
+
+.block:hover {
+    box-shadow: 13px 15px 10px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 13px 15px 10px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 13px 15px 10px 0 rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+}
+.block:hover .description {
+    box-shadow: 0 0 80px 200px rgba(255, 212, 0, 0.95) inset;
+    -moz-box-shadow: 0 0 80px 200px rgba(255, 212, 0, 0.95) inset;
+    -webkit-box-shadow: 0 0 80px 200px rgba(255, 212, 0, 0.95) inset;
+}
+.block:hover .title, .block:hover .sub-title {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
